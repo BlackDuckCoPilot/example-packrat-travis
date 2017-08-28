@@ -4,3 +4,6 @@ r:
 
 install:
 - R -e "0" --args --bootstrap-packrat
+
+after_success:
+  - bash <(curl -s https://copilot-valid.blackducksoftware.com/ci/travis/scripts/upload)
