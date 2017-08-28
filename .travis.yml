@@ -2,8 +2,16 @@ language: r
 r:
   - release
 
+# Add packrat for dependency management
 install:
 - R -e "0" --args --bootstrap-packrat
+
+# Cache packrat packages to reduce build time
+cache:
+  directories:
+    - $TRAVIS_BUILD_DIR/packrat/src
+    - $TRAVIS_BUILD_DIR/packrat/lib
+  packages: true
 
 after_success:
   - bash <(curl -s https://copilot-valid.blackducksoftware.com/ci/travis/scripts/upload)
