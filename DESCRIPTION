@@ -1,0 +1,7 @@
+Package: example-packrat-travis
+Version: 1.0.0
+License: MIT
+Description: An example of how to set up Black Duck CoPilot with Packrat package manager and Travis CI
+Title: CoPilot Packrat/Travis Example
+Author: Black Duck CoPilot
+Maintainer: Black Duck CoPilot <copilot@blackducksoftware.com>
