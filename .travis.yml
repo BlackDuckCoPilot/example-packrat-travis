@@ -1,0 +1,6 @@
+language: r
+r:
+  - release
+
+install:
+- R -e "0" --args --bootstrap-packrat
