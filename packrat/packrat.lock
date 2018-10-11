@@ -1,12 +1,12 @@
 PackratFormat: 1.4
 PackratVersion: 0.4.8.1
-RVersion: 3.4.1
+RVersion: 3.3.3
 Repos: CRAN=https://cloud.r-project.org
 
 Package: Rcpp
 Source: CRAN
-Version: 0.12.12
-Hash: 8b3d5ebb9a9a4ab5c86b3a81b0cfb774
+Version: 0.12.19
+Hash: fdff9c3aa69adac28cd5c45cd250c9da
 
 Package: magrittr
 Source: CRAN
@@ -21,13 +21,13 @@ Hash: 6ad605ba7b4b476d84be6632393f5765
 Package: plyr
 Source: CRAN
 Version: 1.8.4
-Hash: 8fbaff6962e3421b5c9652eebae36159
+Hash: d1f100e0dbbf8d3f55aa701b07c62e35
 Requires: Rcpp
 
 Package: reshape2
 Source: CRAN
 Version: 1.4.2
-Hash: df8d1de05444abd99e423c1e3b84c9b0
+Hash: eb0aa4e0c959eba4ac415eab111abccd
 Requires: Rcpp, plyr, stringr
 
 Package: stringi
